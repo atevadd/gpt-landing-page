@@ -12,7 +12,7 @@ const Article = ({
   return (
     <article className="gpt3__article">
       <div className="gpt3__image">
-        <img src={image} alt="article image" />
+        <img src={image} alt="article image" loading="lazy" />
       </div>
       <div className="gpt3__article-content">
         <p>{date}</p>
